@@ -7,7 +7,7 @@ export const Footer: React.FC = () => {
   const t = useTranslations('footer');
 
   return (
-    <footer className='row-start-3 flex gap-[24px] flex-wrap items-center justify-center'>
+    <footer className='row-start-3 flex gap-[24px] flex-wrap items-center justify-center min-h-32'>
       <a href={t('linkedin')} target='_blank' referrerPolicy='no-referrer' rel='noopener'>
         <LinkedinIcon />
       </a>

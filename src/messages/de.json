@@ -1,9 +1,165 @@
 {
     "title": "Nico Möhn | Portfolio",
     "portfolio": {
-        "hero": "Hi, ich bin Nico 👋",
+        "hero": {
+            "title": "Hi, ich bin Nico 👋",
+            "subheading": "Ich entwickle Full-Stack-TypeScript-Apps.",
+            "hoverText": "hi :)"
+        },
         "experience": {
-            "title": "Erfahrung"
+            "title": "Erfahrung",
+            "items": [
+                {
+                    "id": "prod-lead",
+                    "title": "Product Lead",
+                    "company": "dreifach.ai - Köln, Deutschland (Remote)",
+                    "period": "Jul 2025 — Heute",
+                    "description": [
+                        "Leitung der Entwicklung einer KI-Schadenplattform",
+                        "Planung der Architektur und KI-Workflows",
+                        "Koordination des Teams und Iteration mit Early Adopters"
+                    ],
+                    "skills": [
+                        {
+                            "name": "Product",
+                            "description": "Produktstrategie gesteuert"
+                        },
+                        {
+                            "name": "AI",
+                            "description": "Kombination aus LLMs und Embedding-Modellen für die KI-Funktionen eingesetzt."
+                        },
+                        {
+                            "name": "Next.js",
+                            "description": "Next.js wurde für das Frontend der Anwendung eingesetzt."
+                        },
+                        {
+                            "name": "fastify",
+                            "description": "fastify wurde als Backend-Server-Framework verwendet."
+                        },
+                        {
+                            "name": "Effect.ts",
+                            "description": "Als Standardbibliothek für End-to-End-Typsicherheit, Dependency Injection, Concurrency-Management und mehr gewählt."
+                        },
+                        {
+                            "name": "PostgreSQL",
+                            "description": "Primäre Datenbank des Projekts, mit pgvector zur Speicherung von Embeddings."
+                        }
+                    ],
+                    "startYear": 2025
+                },
+                {
+                    "id": "fs-ai-eng",
+                    "title": "Full Stack AI Engineer",
+                    "company": "dreifach.ai - Köln, Deutschland (Remote)",
+                    "period": "Nov 2024 — Jul 2025",
+                    "description": [
+                        "6 KI-Projekte und 9 PoCs für die Versicherungsbranche ausgeliefert",
+                        "Internes LLM-Benchmarking-Tool gebaut",
+                        "Mehrere Kundenprojekte Ende-zu-Ende geführt"
+                    ],
+                    "skills": [
+                        {
+                            "name": "Python",
+                            "description": "Python wurde für Prototyping und Proof of Concepts verwendet."
+                        },
+                        {
+                            "name": "TypeScript",
+                            "description": "Als primäre Sprache in Projekten, sowohl im Frontend als auch im Backend, eingesetzt."
+                        },
+                        {
+                            "name": "Next.js",
+                            "description": "Bevorzugtes Framework für das Frontend."
+                        },
+                        {
+                            "name": "Tailwind",
+                            "description": "Für das Styling genutzt, weil das Schreiben von CSS-Klassen kafkaesk ist."
+                        },
+                        {
+                            "name": "fastify",
+                            "description": "Bevorzugtes Backend-Server-Framework."
+                        },
+                        {
+                            "name": "Effect.ts",
+                            "description": "Als Standardbibliothek für End-to-End-Typsicherheit, Dependency Injection, Concurrency-Management und mehr gewählt."
+                        },
+                        {
+                            "name": "PostgreSQL",
+                            "description": "Primäre Datenbank für die meisten Projekte, mit pgvector zur Speicherung von Embeddings."
+                        },
+                        {
+                            "name": "Vitest",
+                            "description": "Als Testframework in allen Projekten eingesetzt."
+                        }
+                    ],
+                    "startYear": 2024
+                },
+                {
+                    "id": "it-assistant",
+                    "title": "IT-Assistenz Anwendungs- & Infrastrukturmanagement",
+                    "company": "Messe Frankfurt - Frankfurt am Main, Deutschland",
+                    "period": "Jun 2024 — Aug 2024",
+                    "description": [
+                        "Application Management für ESB und Customer IAM",
+                        "Frontend-Entwicklung für internen RAG-Chatbot (React + Tailwind)"
+                    ],
+                    "skills": [
+                        {
+                            "name": "ESB",
+                            "description": "Enterprise Service Bus auf Java verwaltet, der mehrere interne Dienste für nahtlosen Datenaustausch verband."
+                        },
+                        {
+                            "name": "Customer IAM",
+                            "description": "SAP Customer Data Cloud für globalen Kunden-Login betreut."
+                        },
+                        {
+                            "name": "Solid.js",
+                            "description": "Frontend-Framework für das Chatbot-Widget."
+                        },
+                        {
+                            "name": "Tailwind",
+                            "description": "Für das Styling genutzt, weil das Schreiben von CSS-Klassen kafkaesk ist."
+                        },
+                        {
+                            "name": "RAG",
+                            "description": "Retrieval-Augmented-Generation-Pipeline für internen Chatbot mitentworfen."
+                        }
+                    ],
+                    "startYear": 2024
+                },
+                {
+                    "id": "it-specialist",
+                    "title": "Fachinformatiker Systemintegration",
+                    "company": "Messe Frankfurt - Frankfurt am Main, Deutschland",
+                    "period": "Aug 2021 — Jun 2024",
+                    "description": [
+                        "LLM-gestützte Web-App zur Erstellung von Ausstellerbeschreibungen zur Verbesserung von Messeverzeichnissen entwickelt",
+                        "QA für interne Flächenplanungssoftware durch großes UI/UX-Update"
+                    ],
+                    "skills": [
+                        {
+                            "name": "React",
+                            "description": "Frontend-Framework für reguläre Projekte."
+                        },
+                        {
+                            "name": "Solid.js",
+                            "description": "Frontend-Framework für kleinere Projekte."
+                        },
+                        {
+                            "name": "Express.js",
+                            "description": "Backend-Server-Framework für alle Projekte."
+                        },
+                        {
+                            "name": "QA",
+                            "description": "Regressionstests und Pflege von Testsätzen."
+                        },
+                        {
+                            "name": "Project Management",
+                            "description": "Verschiedene Projekte gesteuert, u. a. Entwicklung einer internen English-Quiz-App und Organisation der jährlichen Mitarbeitendenfeier."
+                        }
+                    ],
+                    "startYear": 2021
+                }
+            ]
         },
         "skills": {
             "title": "Skills"

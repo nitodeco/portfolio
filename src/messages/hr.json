@@ -1,16 +1,172 @@
 {
     "title": "Nico Möhn | Portfolio",
     "portfolio": {
-        "hero": "Bok, ja sam Nico 👋",
+        "hero": {
+            "title": "Bok, ja sam Nico 👋",
+            "subheading": "Razvijam full-stack TypeScript aplikacije.",
+            "hoverText": "bok :)"
+        },
         "experience": {
-            "title": "Iskustvo"
+            "title": "Iskustvo",
+            "items": [
+                {
+                    "id": "prod-lead",
+                    "title": "Product Lead",
+                    "company": "dreifach.ai - Köln, Njemačka (Remote)",
+                    "period": "Srpanj 2025 — Sada",
+                    "description": [
+                        "Vodi razvoj AI platforme za obradu šteta",
+                        "Planira arhitekturu i AI tokove",
+                        "Koordinira tim i iterira s ranim korisnicima"
+                    ],
+                    "skills": [
+                        {
+                            "name": "Product",
+                            "description": "Upravljao smjerom proizvoda"
+                        },
+                        {
+                            "name": "AI",
+                            "description": "Korištena kombinacija LLM-ova i embedding modela za AI funkcionalnosti."
+                        },
+                        {
+                            "name": "Next.js",
+                            "description": "Next.js je korišten za frontend aplikacije."
+                        },
+                        {
+                            "name": "fastify",
+                            "description": "fastify je korišten kao backend server okvir."
+                        },
+                        {
+                            "name": "Effect.ts",
+                            "description": "Odabran kao standardna biblioteka za tipnu sigurnost end-to-end, dependency injection, upravljanje konkurentnošću i više."
+                        },
+                        {
+                            "name": "PostgreSQL",
+                            "description": "Primarna baza podataka projekta, s pgvectorom za pohranu embeddinga."
+                        }
+                    ],
+                    "startYear": 2025
+                },
+                {
+                    "id": "fs-ai-eng",
+                    "title": "Full Stack AI Engineer",
+                    "company": "dreifach.ai - Köln, Njemačka (Remote)",
+                    "period": "Studeni 2024 — Srpanj 2025",
+                    "description": [
+                        "Isporučeno 6 AI projekata i 9 PoC-eva za osigurateljnu industriju",
+                        "Izgrađen interni alat za LLM benchmarking",
+                        "Vodio više klijentskih projekata end-to-end"
+                    ],
+                    "skills": [
+                        {
+                            "name": "Python",
+                            "description": "Python je korišten za prototipiranje i izradu dokaza koncepta."
+                        },
+                        {
+                            "name": "TypeScript",
+                            "description": "Primarni jezik u projektima, u frontendu i backendu."
+                        },
+                        {
+                            "name": "Next.js",
+                            "description": "Glavni izbor za frontend."
+                        },
+                        {
+                            "name": "Tailwind",
+                            "description": "Korišten za stiliziranje jer je pisanje CSS klasa kafkaesknog karaktera."
+                        },
+                        {
+                            "name": "fastify",
+                            "description": "Glavni izbor za backend server okvir."
+                        },
+                        {
+                            "name": "Effect.ts",
+                            "description": "Odabran kao standardna biblioteka za tipnu sigurnost end-to-end, dependency injection, upravljanje konkurentnošću i više."
+                        },
+                        {
+                            "name": "PostgreSQL",
+                            "description": "Primarna baza podataka za većinu projekata, s pgvectorom za pohranu embeddinga."
+                        },
+                        {
+                            "name": "Vitest",
+                            "description": "Testni okvir korišten u svim projektima."
+                        }
+                    ],
+                    "startYear": 2024
+                },
+                {
+                    "id": "it-assistant",
+                    "title": "IT Asistent - Upravljanje aplikacijama i infrastrukturom",
+                    "company": "Messe Frankfurt - Frankfurt na Majni, Njemačka",
+                    "period": "Lipanj 2024 — Kolovoz 2024",
+                    "description": [
+                        "Upravljanje ESB i Customer IAM sustavima",
+                        "Frontend developer za interni RAG chatbot (React + Tailwind)"
+                    ],
+                    "skills": [
+                        {
+                            "name": "ESB",
+                            "description": "Upravljan enterprise service bus na Javi koji je povezivao više internih servisa za besprijekornu razmjenu podataka."
+                        },
+                        {
+                            "name": "Customer IAM",
+                            "description": "Upravljanje SAP Customer Data Cloudom za globalnu prijavu korisnika."
+                        },
+                        {
+                            "name": "Solid.js",
+                            "description": "Frontend okvir korišten za frontend widgeta chatbota."
+                        },
+                        {
+                            "name": "Tailwind",
+                            "description": "Korišten za stiliziranje jer je pisanje CSS klasa kafkaesknog karaktera."
+                        },
+                        {
+                            "name": "RAG",
+                            "description": "Su-dizajniran retrieval augmented generation tijek za interni chatbot."
+                        }
+                    ],
+                    "startYear": 2024
+                },
+                {
+                    "id": "it-specialist",
+                    "title": "IT Specijalist - Sistemska integracija",
+                    "company": "Messe Frankfurt - Frankfurt na Majni, Njemačka",
+                    "period": "Kolovoz 2021 — Lipanj 2024",
+                    "description": [
+                        "Razvio web aplikaciju s LLM-ovima za generiranje opisa izlagača kako bi se poboljšali sajamski imenici",
+                        "QA za interni softver za planiranje prostora kroz veliko UI/UX unaprjeđenje"
+                    ],
+                    "skills": [
+                        {
+                            "name": "React",
+                            "description": "Frontend okvir korišten za redovite projekte."
+                        },
+                        {
+                            "name": "Solid.js",
+                            "description": "Frontend okvir korišten za manje projekte."
+                        },
+                        {
+                            "name": "Express.js",
+                            "description": "Backend server okvir korišten za sve projekte."
+                        },
+                        {
+                            "name": "QA",
+                            "description": "Testiranje regresije i kuriranje skupova testova."
+                        },
+                        {
+                            "name": "Project Management",
+                            "description": "Upravljao raznim projektima, uključujući razvoj interne English Quiz aplikacije, organizaciju godišnje zabave zaposlenika i više."
+                        }
+                    ],
+                    "startYear": 2021
+                }
+            ]
         },
         "skills": {
             "title": "Vještine"
         }
     },
     "localeSelect": {
-        "placeholder": "Select language...",
+        "placeholder": "Odaberite jezik...",
         "locales": {
             "en": "🇬🇧 English",
             "hr": "🇭🇷 Hrvatski",

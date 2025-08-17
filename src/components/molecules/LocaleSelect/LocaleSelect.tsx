@@ -29,7 +29,7 @@ export const LocaleSelect: React.FC = () => {
       open={open}
       onOpenChange={setOpen}
     >
-      <SelectTrigger className='cursor-pointer'>
+      <SelectTrigger className='cursor-pointer bg-background'>
         <SelectValue placeholder={t('placeholder')} />
       </SelectTrigger>
       <SelectContent>
