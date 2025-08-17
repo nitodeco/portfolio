@@ -26,7 +26,7 @@ export const Experience: React.FC = () => {
 
   return (
     <section className='w-full'>
-      <h2 className='text-center text-2xl font-semibold mb-8'>{t('title')}</h2>
+      <h2 className='text-center text-3xl font-semibold mb-8'>{t('title')}</h2>
       <div className='relative pl-4 w-full'>
         {items.map((item: ExperienceItem) => (
           <article key={item.id} className='relative mb-10 last:mb-0'>

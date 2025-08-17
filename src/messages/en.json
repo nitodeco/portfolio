@@ -4,6 +4,7 @@
         "hero": {
             "title": "Hi, I'm Nico 👋",
             "subheading": "I develop full-stack TypeScript apps.",
+            "location": "Zagreb",
             "hoverText": "hi :)"
         },
         "experience": {

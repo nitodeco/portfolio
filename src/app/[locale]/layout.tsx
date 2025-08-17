@@ -38,7 +38,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <body className={`${alata.variable} antialiased`}>
+      <body className={`${alata.variable} antialiased overflow-x-hidden`}>
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
     </html>
