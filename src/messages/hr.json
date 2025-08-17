@@ -1,0 +1,21 @@
+{
+    "title": "Nico Möhn | Portfolio",
+    "portfolio": {
+        "hero": "Bok, ja sam Nico 👋",
+        "experience": {
+            "title": "Iskustvo"
+        },
+        "skills": {
+            "title": "Vještine"
+        }
+    },
+    "localeSelect": {
+        "placeholder": "Select language...",
+        "locales": {
+            "en": "🇬🇧 English",
+            "hr": "🇭🇷 Hrvatski",
+            "de": "🇩🇪 Deutsch"
+        },
+        "notFound": "Nije pronađeno ☹️"
+    }
+}
