@@ -39,7 +39,7 @@
   --font-sans: Alata, ui-sans-serif, sans-serif, system-ui;
   --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   --font-mono: Space Mono, monospace;
-  --radius: 1rem;
+  --radius: 0.625rem;
   --shadow-2xs: 5px 5px 0px -1px hsl(267.6923 21.3115% 11.9608% / 0.5);
   --shadow-xs: 5px 5px 0px -1px hsl(267.6923 21.3115% 11.9608% / 0.5);
   --shadow-sm:

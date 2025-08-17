@@ -14,14 +14,14 @@ export const Portfolio: React.FC = () => {
 
   return (
     <main className='flex flex-col items-center p-8 pt-24 w-full'>
-      <div className='w-1/2 flex flex-col items-center'>
+      <div className='w-full sm:w-4/5 md:w-1/2 flex flex-col items-center'>
         <Hero />
         <Tabs defaultValue='experience' className='w-full mb-4 flex items-center'>
           <TabsList className='w-64 flex gap-2 mb-4'>
-            <TabsTrigger value='experience' className='cursor-pointer'>
+            <TabsTrigger value='experience' className='cursor-pointer hover:bg-secondary'>
               {t('experience.title')}
             </TabsTrigger>
-            <TabsTrigger value='skills' className='cursor-pointer'>
+            <TabsTrigger value='skills' className='cursor-pointer hover:bg-secondary'>
               {t('skills.title')}
             </TabsTrigger>
           </TabsList>

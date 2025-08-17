@@ -27,10 +27,10 @@ export const Experience: React.FC = () => {
   return (
     <section className='w-full'>
       <h2 className='text-center text-2xl font-semibold mb-8'>{t('title')}</h2>
-      <div className='relative pl-16'>
+      <div className='relative pl-4 w-full'>
         {items.map((item: ExperienceItem) => (
           <article key={item.id} className='relative mb-10 last:mb-0'>
-            <div className='pointer-events-none absolute left-3 -top-6 -bottom-6 w-px bg-gradient-to-b from-transparent via-border to-transparent' />
+            <div className='pointer-events-none absolute left-3 -top-6 -bottom-6 w-px bg-primary' />
             <div className='absolute left-3 top-1.5 h-3 w-3 -translate-x-1/2 rounded-full bg-primary shadow-[0_0_0_6px_hsl(var(--color-primary)/0.18)] ring-4 ring-primary/20 transition-transform duration-200 will-change-transform' />
             <span className='absolute left-3 -translate-x-full top-1 pr-2 text-xs text-muted-foreground tabular-nums'>
               {item.startYear}
@@ -51,8 +51,8 @@ export const Experience: React.FC = () => {
                 ))}
               </ul>
               <div className='mt-4 flex flex-wrap gap-2'>
-                {item.skills.map((skill: Skill) => (
-                  <SkillBadge skill={skill.name} description={skill.description} key={crypto.randomUUID()} />
+                {item.skills.map((skill: Skill, idx: number) => (
+                  <SkillBadge key={idx} skill={skill.name} description={skill.description} />
                 ))}
               </div>
             </div>
