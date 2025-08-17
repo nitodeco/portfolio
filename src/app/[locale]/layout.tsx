@@ -13,6 +13,7 @@ const alata = Alata({
   weight: '400',
   preload: true,
   variable: '--font-alata',
+  subsets: ['latin'],
 });
 
 export const generateMetadata = async (): Promise<Metadata> => {
