@@ -8,11 +8,10 @@ export const Footer: React.FC = () => {
 
   return (
     <footer className='row-start-3 flex gap-[24px] flex-wrap items-center justify-center'>
-      
-      <a href={t('linkedin')}>
+      <a href={t('linkedin')} target='_blank' referrerPolicy='no-referrer' rel='noopener'>
         <LinkedinIcon />
       </a>
-      <a href={t('github')}>
+      <a href={t('github')} target='_blank' referrerPolicy='no-referrer' rel='noopener'>
         <GithubIcon />
       </a>
     </footer>
