@@ -8,7 +8,7 @@ export const Hero: React.FC = () => {
   const t = useTranslations('portfolio.hero');
 
   return (
-    <div className='flex flex-row justify-between items-center gap-16 mb-16'>
+    <div className='flex flex-col md:flex-row justify-between items-center gap-8 md:gap-16 mb-16'>
       <div className='flex flex-col gap-4 items-center justify-center'>
         <h1 className='text-4xl w-full text-center'>{t('title')}</h1>
         <h2 className='text-2xl w-full text-center'>{t('subheading')}</h2>
