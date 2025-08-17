@@ -2,6 +2,28 @@
 // See: https://next-intl.dev/docs/workflows/typescript#messages-arguments
 
 declare const messages: {
-    "title": "Next.js Template"
+    "title": "Nico Möhn | Portfolio",
+    "portfolio": {
+        "hero": "Hi, I'm Nico 👋",
+        "experience": {
+            "title": "Experience"
+        },
+        "skills": {
+            "title": "Skills"
+        }
+    },
+    "localeSelect": {
+        "placeholder": "Select language...",
+        "locales": {
+            "en": "🇬🇧 English",
+            "hr": "🇭🇷 Hrvatski",
+            "de": "🇩🇪 Deutsch"
+        },
+        "notFound": "Not found ☹️"
+    },
+    "footer": {
+        "linkedin": "https://www.linkedin.com/in/nicomoehn",
+        "github": "https://github.com/nitodeco"
+    }
 };
 export default messages;

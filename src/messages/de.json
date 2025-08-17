@@ -17,5 +17,9 @@
             "de": "🇩🇪 Deutsch"
         },
         "notFound": "Nicht gefunden ☹️"
+    },
+    "footer": {
+        "linkedin": "https://www.linkedin.com/in/nicomoehn",
+        "github": "https://github.com/nitodeco"
     }
 }
