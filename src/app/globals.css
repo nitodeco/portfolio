@@ -54,6 +54,8 @@
   --shadow-2xl: 5px 5px 0px -1px hsl(267.6923 21.3115% 11.9608% / 2.5);
   --tracking-normal: 0em;
   --spacing: 0.25rem;
+
+  cursor: url("./cursor.png"), auto;
 }
 
 .dark {
