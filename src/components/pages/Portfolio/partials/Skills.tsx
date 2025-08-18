@@ -13,7 +13,7 @@ export const Skills: React.FC = () => {
   return (
     <div className='mx-auto w-full'>
       <h2 className='text-center text-3xl font-semibold tracking-tight mb-8'>{t('title')}</h2>
-      <BentoCard title={t('languages.title')} className=''>
+      <BentoCard title={t('languages.title')} className='mb-4'>
         <div className='flex flex-row gap-4 flex-wrap'>
           <Icon imagePath='/typescript.webp' alt={t('languages.typescript')} tooltip={t('languages.typescript')} />
           <Icon imagePath='/python.webp' alt={t('languages.python')} tooltip={t('languages.python')} />
