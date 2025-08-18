@@ -3,7 +3,7 @@
     "portfolio": {
         "hero": {
             "title": "Hi, I'm Nico 👋",
-            "subheading": "I develop full-stack TypeScript apps.",
+            "subheading": "I develop full-stack apps.",
             "location": "Zagreb",
             "hoverText": "hi :)"
         },
@@ -163,10 +163,69 @@
             ]
         },
         "skills": {
-            "title": "Skills"
+            "title": "Skills",
+            "languages": {
+                "title": "Programming Languages",
+                "typescript": "TypeScript (Proficient)",
+                "python": "Python (Proficient)",
+                "csharp": "C# (Intermediate)",
+                "go": "Go (Familiar)",
+                "cpp": "C++ (Familiar)",
+                "sql": "SQL (Proficient)",
+                "c": "C (Familiar)",
+                "java": "Java (Familiar)"
+            },
+            "frontend": {
+                "title": "Frontend",
+                "react": "React",
+                "next": "Next.js",
+                "solid": "Solid.js",
+                "astro": "Astro",
+                "tailwind": "TailwindCSS",
+                "sass": "Sass/SCSS",
+                "storybook": "Storybook",
+                "shadcn": "shadcn/ui",
+                "zustand": "Zustand (State Management)",
+                "vite": "Vite",
+                "tanstack": "TanStack Query/Table"
+            },
+            "devOps": {
+                "title": "DevOps",
+                "docker": "Docker",
+                "aws": "AWS (ECS, Lambda, Amplify, S3, API Gateway, EC2, Route 53)",
+                "azure": "Azure (Container Apps, Storage, Functions, PostgreSQL)",
+                "git": "Git",
+                "ghActions": "GitHub Actions",
+                "posthog": "PostHog"
+            },
+            "backend": {
+                "title": "Backend",
+                "effect": "Effect.ts",
+                "express": "Express.js",
+                "fastify": "fastify",
+                "fastapi": "FastAPI",
+                "vitest": "Vitest",
+                "drizzle": "Drizzle ORM",
+                "prisma": "Prisma ORM",
+                "postgres": "PostgreSQL",
+                "mysql": "MySQL",
+                "mongodb": "MongoDB",
+                "redis": "Redis",
+                "rabbitmq": "RabbitMQ"
+            },
+            "ai": {
+                "title": "AI/ML",
+                "pytorch": "PyTorch",
+                "sklearn": "scikit-learn",
+                "langchain": "LangChain",
+                "foundry": "Azure AI Foundry",
+                "openai": "OpenAI LLMs & Embedding Models",
+                "cohere": "Cohere Embedding & Reranking Models"
+            }
         }
     },
     "localeSelect": {
+        "ariaLabel": "Select language",
         "placeholder": "Select language...",
         "locales": {
             "en": "🇬🇧 English",

@@ -29,7 +29,7 @@ export const LocaleSelect: React.FC = () => {
       open={open}
       onOpenChange={setOpen}
     >
-      <SelectTrigger className='cursor-pointer bg-background'>
+      <SelectTrigger className='cursor-pointer bg-background' aria-label={t('ariaLabel')} name={t('ariaLabel')}>
         <SelectValue placeholder={t('placeholder')} />
       </SelectTrigger>
       <SelectContent>

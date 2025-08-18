@@ -12,12 +12,7 @@ type Props = {
 
 export const BentoCard: React.FC<Props> = ({ title, className, children }) => {
   return (
-    <Card
-      className={cn(
-        className,
-        'min-h-64 max-h-72 relative overflow-hidden transition-all duration-200 hover:-translate-y-0.5',
-      )}
-    >
+    <Card className={cn(className, 'relative transition-all duration-200 hover:-translate-y-0.5')}>
       <CardHeader>
         <CardTitle className='text-lg'>{title}</CardTitle>
       </CardHeader>
