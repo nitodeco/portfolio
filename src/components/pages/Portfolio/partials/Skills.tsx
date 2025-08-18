@@ -47,7 +47,7 @@ export const Skills: React.FC = () => {
             <Icon imagePath='/aws.webp' alt='AWS' tooltip={t('devOps.aws')} />
             <Icon imagePath='/azure.webp' alt='Azure' tooltip={t('devOps.azure')} />
             <Icon imagePath='/git.webp' alt='Git' tooltip={t('devOps.git')} />
-            <Icon imagePath='/ghActions.webp' alt='GitHub Actions' tooltip={t('devOps.ghActions')} />
+            <Icon imagePath='/actions.webp' alt='GitHub Actions' tooltip={t('devOps.ghActions')} />
             <Icon imagePath='/posthog.webp' alt='PostHog' tooltip={t('devOps.posthog')} />
           </div>
         </BentoCard>
