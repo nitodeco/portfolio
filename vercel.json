@@ -2,8 +2,12 @@
     "$schema": "https://openapi.vercel.sh/vercel.json",
     "rewrites": [
         {
-            "source": "/ingest/:path(.*)",
-            "destination": "https://eu.i.posthog.com/:path*"
+            "source": "/relay-portfolio/static/(.*)",
+            "destination": "https://eu-assets.i.posthog.com/static/$1"
+        },
+        {
+            "source": "/relay-portfolio/(.*)",
+            "destination": "https://eu.i.posthog.com/$1"
         }
     ]
 }
