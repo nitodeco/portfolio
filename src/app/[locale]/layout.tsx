@@ -22,6 +22,13 @@ export const generateMetadata = async (): Promise<Metadata> => {
   return {
     title: t('title'),
     description: `${t('portfolio.hero.title')} - ${t('portfolio.hero.subheading')}`,
+    authors: [{ name: 'Nico Möhn', url: 'https://nicomoehn.codes' }],
+    creator: 'Nico Möhn',
+    publisher: 'Nico Möhn',
+    openGraph: {
+      title: t('title'),
+      description: `${t('portfolio.hero.title')} - ${t('portfolio.hero.subheading')}`,
+    },
   };
 };
 
