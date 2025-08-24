@@ -6,11 +6,13 @@ export default function robots(): MetadataRoute.Robots {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://nicomoehn.codes';
 
   return {
-    rules: {
-      userAgent: '*',
-      allow: ['/', ...locales.map((locale) => `/${locale}`)],
-      disallow: ['/api/', '/_next/', '/relay-portfolio/'],
-    },
+    rules: [
+      {
+        userAgent: '*',
+        allow: '/',
+        disallow: ['/api/', '/_next/', '/relay-portfolio/'],
+      },
+    ],
     sitemap: `${baseUrl}/sitemap.xml`,
   };
 }
