@@ -2,9 +2,7 @@ import React from 'react';
 
 import Image from 'next/image';
 
-import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip';
-
-import { SpeechBubble } from '@/components/atoms/SpeechBubble';
+import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 
 type Props = {
   imagePath: string;
@@ -15,8 +13,8 @@ type Props = {
 export const Icon: React.FC<Props> = ({ imagePath, alt, tooltip }) => {
   return (
     <div className='relative group'>
-      <Tooltip>
-        <TooltipTrigger asChild>
+      <Popover>
+        <PopoverTrigger asChild>
           <Image
             src={imagePath}
             alt={alt}
@@ -25,11 +23,13 @@ export const Icon: React.FC<Props> = ({ imagePath, alt, tooltip }) => {
             objectFit='contain'
             className='hover:scale-105 hover:rotate-5 transition-transform ease-in-out duration-100'
           />
-        </TooltipTrigger>
+        </PopoverTrigger>
         {tooltip && (
-          <TooltipContent className='bg-secondary text-secondary-foreground shadow'>{tooltip}</TooltipContent>
+          <PopoverContent className='bg-secondary text-secondary-foreground shadow w-fit h-fit text-center text-xs'>
+            {tooltip}
+          </PopoverContent>
         )}
-      </Tooltip>
+      </Popover>
     </div>
   );
 };

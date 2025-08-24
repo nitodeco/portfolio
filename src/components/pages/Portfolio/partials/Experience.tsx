@@ -39,11 +39,8 @@ export const Experience: React.FC = () => {
               <div className='flex items-start justify-between gap-4'>
                 <div className='flex min-w-0 flex-col'>
                   <h3 className='text-lg font-semibold leading-tight'>{item.title}</h3>
-                  <p className='text-sm text-muted-foreground truncate'>{item.company}</p>
+                  <p className='text-sm text-muted-foreground text-wrap'>{item.company}</p>
                 </div>
-                <span className='shrink-0 rounded-full border px-2 py-0.5 text-xs text-muted-foreground bg-muted/50'>
-                  {item.period}
-                </span>
               </div>
               <ul className='mt-3 list-disc list-inside space-y-1 text-sm leading-relaxed'>
                 {item.description.map((line: string, idx: number) => (

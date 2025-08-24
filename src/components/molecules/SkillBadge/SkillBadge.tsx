@@ -16,8 +16,8 @@ export const SkillBadge: React.FC<Props> = ({ skill, description }) => {
           {skill}
         </Badge>
       </PopoverTrigger>
-      <PopoverContent>
-        <span className='text-sm'>{description}</span>
+      <PopoverContent className='bg-secondary text-secondary-foreground shadow w-fit h-fit text-center text-xs'>
+        {description}
       </PopoverContent>
     </Popover>
   );
