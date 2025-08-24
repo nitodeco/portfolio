@@ -2,7 +2,7 @@
     "title": "Nico Möhn | Portfolio",
     "portfolio": {
         "hero": {
-            "title": "Bok, ja sam Nico 👋",
+            "title": "Bok, zovem se Nico 👋",
             "subheading": "Razvijam full-stack aplikacije.",
             "location": "Zagreb",
             "hoverText": "bok :)"
@@ -16,18 +16,18 @@
                     "company": "dreifach.ai - Köln, Njemačka (Remote)",
                     "period": "Srpanj 2025 — Sada",
                     "description": [
-                        "Vodi razvoj AI platforme za obradu šteta",
-                        "Planira arhitekturu i AI tokove",
-                        "Koordinira tim i iterira s ranim korisnicima"
+                        "Vođenje razvoja nenajavljenog AI proizvoda za industriju osiguranja",
+                        "Planiranje arhitekture i AI tokova rada",
+                        "Koordiniranje tima i iteriranje s ranim korisnicima"
                     ],
                     "skills": [
                         {
-                            "name": "Product",
-                            "description": "Upravljao smjerom proizvoda"
+                            "name": "Product Development",
+                            "description": "Upravljao smjerom proizvoda."
                         },
                         {
                             "name": "AI",
-                            "description": "Korištena kombinacija LLM-ova i embedding modela za AI funkcionalnosti."
+                            "description": "Koristio kombinacije LLM-ova i embedding modela za AI funkcionalnosti."
                         },
                         {
                             "name": "Next.js",
@@ -35,11 +35,11 @@
                         },
                         {
                             "name": "fastify",
-                            "description": "fastify je korišten kao backend server okvir."
+                            "description": "Fastify je korišten kao backend server okvir."
                         },
                         {
                             "name": "Effect.ts",
-                            "description": "Odabran kao standardna biblioteka za tipnu sigurnost end-to-end, dependency injection, upravljanje konkurentnošću i više."
+                            "description": "Odabran kao standardna biblioteka za end-to-end tip sigurnosti, dependency injection, upravljanje konkurentnošću i više."
                         },
                         {
                             "name": "PostgreSQL",
@@ -55,8 +55,8 @@
                     "period": "Studeni 2024 — Srpanj 2025",
                     "description": [
                         "Isporučeno 6 AI projekata i 9 PoC-eva za osigurateljnu industriju",
-                        "Izgrađen interni alat za LLM benchmarking",
-                        "Vodio više klijentskih projekata end-to-end"
+                        "Izgrada internih alat za LLM benchmarking",
+                        "Vođenje više klijentskih end-to-end projekata"
                     ],
                     "skills": [
                         {
@@ -73,7 +73,7 @@
                         },
                         {
                             "name": "Tailwind",
-                            "description": "Korišten za stiliziranje jer je pisanje CSS klasa kafkaesknog karaktera."
+                            "description": "Korišten u svrhu stiliziranja, jer pisanje CSS klasa je kafkaesknog karaktera."
                         },
                         {
                             "name": "fastify",
@@ -81,7 +81,7 @@
                         },
                         {
                             "name": "Effect.ts",
-                            "description": "Odabran kao standardna biblioteka za tipnu sigurnost end-to-end, dependency injection, upravljanje konkurentnošću i više."
+                            "description": "Odabran kao standardna biblioteka za end-to-end tip sigurnosti, dependency injection, upravljanje konkurentnošću i više."
                         },
                         {
                             "name": "PostgreSQL",
@@ -106,7 +106,7 @@
                     "skills": [
                         {
                             "name": "ESB",
-                            "description": "Upravljan enterprise service bus na Javi koji je povezivao više internih servisa za besprijekornu razmjenu podataka."
+                            "description": "Upravljanje enterprise service bus-om na Javi koji je povezivao više internih servisa za besprijekornu razmjenu podataka."
                         },
                         {
                             "name": "Customer IAM",
@@ -118,7 +118,7 @@
                         },
                         {
                             "name": "Tailwind",
-                            "description": "Korišten za stiliziranje jer je pisanje CSS klasa kafkaesknog karaktera."
+                            "description": "Korišten u svrhu stiliziranja, jer pisanje CSS klasa je kafkaesknog karaktera."
                         },
                         {
                             "name": "RAG",
@@ -133,7 +133,7 @@
                     "company": "Messe Frankfurt - Frankfurt na Majni, Njemačka",
                     "period": "Kolovoz 2021 — Lipanj 2024",
                     "description": [
-                        "Razvio web aplikaciju s LLM-ovima za generiranje opisa izlagača kako bi se poboljšali sajamski imenici",
+                        "Razvoj web aplikacije s LLM-ovima za generiranje opisa izlagača kako bi se poboljšali sajamski imenici",
                         "QA za interni softver za planiranje prostora kroz veliko UI/UX unaprjeđenje"
                     ],
                     "skills": [

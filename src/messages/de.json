@@ -16,14 +16,14 @@
                     "company": "dreifach.ai - Köln, Deutschland (Remote)",
                     "period": "Jul 2025 — Heute",
                     "description": [
-                        "Leitung der Entwicklung einer KI-Schadenplattform",
-                        "Planung der Architektur und KI-Workflows",
-                        "Koordination des Teams und Iteration mit Early Adopters"
+                        "Entwicklung eines unangekündigten KI-Produkts für die Versicherungsbranche.",
+                        "Planung der Architektur und KI-Workflows.",
+                        "Koordination des Teams und Iteration mit Early Adopters."
                     ],
                     "skills": [
                         {
-                            "name": "Product",
-                            "description": "Produktstrategie gesteuert"
+                            "name": "Produktentwicklung",
+                            "description": "Produktstrategie gesteuert und Entscheidungen zu Design, Entwicklung und Marketing getroffen."
                         },
                         {
                             "name": "AI",
@@ -54,9 +54,9 @@
                     "company": "dreifach.ai - Köln, Deutschland (Remote)",
                     "period": "Nov 2024 — Jul 2025",
                     "description": [
-                        "6 KI-Projekte und 9 PoCs für die Versicherungsbranche ausgeliefert",
-                        "Internes LLM-Benchmarking-Tool gebaut",
-                        "Mehrere Kundenprojekte Ende-zu-Ende geführt"
+                        "6 KI-Projekte und 9 PoCs für die Versicherungsbranche ausgeliefert.",
+                        "Internes LLM-Benchmarking-Tool gebaut.",
+                        "Mehrere Kundenprojekte Ende-zu-Ende geführt."
                     ],
                     "skills": [
                         {
@@ -73,11 +73,11 @@
                         },
                         {
                             "name": "Tailwind",
-                            "description": "Für das Styling genutzt, weil das Schreiben von CSS-Klassen kafkaesk ist."
+                            "description": "Für Styling genutzt, da CSS-Klassen schreiben ein kafkaesquer Alptraum ist."
                         },
                         {
                             "name": "fastify",
-                            "description": "Bevorzugtes Backend-Server-Framework."
+                            "description": "Bevorzugtes Server-Framework."
                         },
                         {
                             "name": "Effect.ts",
@@ -100,13 +100,13 @@
                     "company": "Messe Frankfurt - Frankfurt am Main, Deutschland",
                     "period": "Jun 2024 — Aug 2024",
                     "description": [
-                        "Application Management für ESB und Customer IAM",
-                        "Frontend-Entwicklung für internen RAG-Chatbot (React + Tailwind)"
+                        "Application Management für ESB und Customer IAM.",
+                        "Frontend-Entwicklung für internen RAG-Chatbot (React + Tailwind)."
                     ],
                     "skills": [
                         {
                             "name": "ESB",
-                            "description": "Enterprise Service Bus auf Java verwaltet, der mehrere interne Dienste für nahtlosen Datenaustausch verband."
+                            "description": "In Java entwickelten Enterprise Service Bus betreut, Anforderungen und Fehlerbehebungen verwaltet."
                         },
                         {
                             "name": "Customer IAM",
@@ -114,11 +114,11 @@
                         },
                         {
                             "name": "Solid.js",
-                            "description": "Frontend-Framework für das Chatbot-Widget."
+                            "description": "Frontend-Framework für internes Chatbot-Widget."
                         },
                         {
                             "name": "Tailwind",
-                            "description": "Für das Styling genutzt, weil das Schreiben von CSS-Klassen kafkaesk ist."
+                            "description": "Für Styling genutzt, da CSS-Klassen schreiben ein kafkaesquer Alptraum ist."
                         },
                         {
                             "name": "RAG",
@@ -133,8 +133,8 @@
                     "company": "Messe Frankfurt - Frankfurt am Main, Deutschland",
                     "period": "Aug 2021 — Jun 2024",
                     "description": [
-                        "LLM-gestützte Web-App zur Erstellung von Ausstellerbeschreibungen zur Verbesserung von Messeverzeichnissen entwickelt",
-                        "QA für interne Flächenplanungssoftware durch großes UI/UX-Update"
+                        "LLM-gestützte Web-App zur Erstellung von Ausstellerbeschreibungen zur Verbesserung von Messeverzeichnissen entwickelt.",
+                        "QA für interne Flächenplanungssoftware durch großes UI/UX-Update."
                     ],
                     "skills": [
                         {
@@ -147,14 +147,14 @@
                         },
                         {
                             "name": "Express.js",
-                            "description": "Backend-Server-Framework für alle Projekte."
+                            "description": "Server-Framework für alle Projekte."
                         },
                         {
                             "name": "QA",
                             "description": "Regressionstests und Pflege von Testsätzen."
                         },
                         {
-                            "name": "Project Management",
+                            "name": "Projektmanagement",
                             "description": "Verschiedene Projekte gesteuert, u. a. Entwicklung einer internen English-Quiz-App und Organisation der jährlichen Mitarbeitendenfeier."
                         }
                     ],

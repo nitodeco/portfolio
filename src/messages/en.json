@@ -16,26 +16,26 @@
                     "company": "dreifach.ai - Cologne, Germany (Remote)",
                     "period": "Jul 2025 — Present",
                     "description": [
-                        "Leading the development of an AI insurance claims platform",
-                        "Planning architecture and AI workflows",
-                        "Coordinating the team and iterating with early adopters"
+                        "Leading the development of an unannounced AI product for the insurance industry.",
+                        "Planning architecture and AI workflows.",
+                        "Coordinating the team and iterating with early adopters."
                     ],
                     "skills": [
                         {
-                            "name": "Product",
-                            "description": "Steered product direction"
+                            "name": "Product Development",
+                            "description": "Steered product direction and made decisions about design, development and marketing."
                         },
                         {
                             "name": "AI",
-                            "description": "Used a combination of LLMs and embedding models for the AI features."
+                            "description": "Used a combination of LLMs and embedding models for AI features."
                         },
                         {
                             "name": "Next.js",
-                            "description": "Next.js was used for the frontend off the application."
+                            "description": "Next.js was used for the frontend of the application."
                         },
                         {
                             "name": "fastify",
-                            "description": "fastify was used as the backend server framework."
+                            "description": "fastify was used as the server framework."
                         },
                         {
                             "name": "Effect.ts",
@@ -43,7 +43,7 @@
                         },
                         {
                             "name": "PostgreSQL",
-                            "description": "Primary database for the project, with pgvector to store embeddings."
+                            "description": "Primary database, with pgvector to store embeddings."
                         }
                     ],
                     "startYear": 2025
@@ -54,9 +54,9 @@
                     "company": "dreifach.ai - Cologne, Germany (Remote)",
                     "period": "Nov 2024 — Jul 2025",
                     "description": [
-                        "Shipped 6 AI projects and 9 PoCs for the insurance industry",
-                        "Built an internal LLM benchmarking tool",
-                        "Led multiple client projects end-to-end"
+                        "Shipped 6 AI projects and 9 PoCs for the insurance industry.",
+                        "Built an internal LLM benchmarking tool.",
+                        "Led multiple client projects end-to-end."
                     ],
                     "skills": [
                         {
@@ -73,7 +73,7 @@
                         },
                         {
                             "name": "Tailwind",
-                            "description": "Used for styling because writing CSS classes is a kafkaesque nightmare."
+                            "description": "Used for styling, as writing CSS classes is a kafkaesque nightmare."
                         },
                         {
                             "name": "fastify",
@@ -100,8 +100,8 @@
                     "company": "Messe Frankfurt - Frankfurt am Main, Germany",
                     "period": "Jun 2024 — Aug 2024",
                     "description": [
-                        "Application manager for ESB and Customer IAM",
-                        "Frontend developer for an internal RAG chatbot (React + Tailwind)"
+                        "Application manager for ESB and Customer IAM.",
+                        "Frontend developer for an internal RAG chatbot (React + Tailwind)."
                     ],
                     "skills": [
                         {
@@ -133,8 +133,8 @@
                     "company": "Messe Frankfurt - Frankfurt am Main, Germany",
                     "period": "Aug 2021 — Jun 2024",
                     "description": [
-                        "Developed an LLM-powered web app to generate exhibitor descriptions to improve trade fair directories",
-                        "QA for internal floor planning software through a major UI/UX overhaul"
+                        "Developed an LLM-powered web app to generate exhibitor descriptions to improve trade fair directories.",
+                        "QA for internal floor planning software through a major UI/UX overhaul."
                     ],
                     "skills": [
                         {
@@ -147,7 +147,7 @@
                         },
                         {
                             "name": "Express.js",
-                            "description": "Backend server framework used for all projects."
+                            "description": "Server framework used for all projects."
                         },
                         {
                             "name": "QA",
