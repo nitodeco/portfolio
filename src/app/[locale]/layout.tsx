@@ -1,9 +1,8 @@
-import { NextIntlClientProvider, hasLocale } from 'next-intl';
-import { getTranslations } from 'next-intl/server';
-
 import type { Metadata } from 'next';
 import { Alata } from 'next/font/google';
 import { notFound } from 'next/navigation';
+import { hasLocale, NextIntlClientProvider } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 
 import { routing } from '@/i18n/routing';
 

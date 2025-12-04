@@ -1,8 +1,5 @@
-import React from 'react';
-
 import { useTranslations } from 'next-intl';
-
-import { Separator } from '@/components/ui/separator';
+import type React from 'react';
 
 import { Icon } from '@/components/molecules/Icon/Icon';
 import { BentoCard } from '@/components/organisms/BentoCard';

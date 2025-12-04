@@ -1,7 +1,6 @@
-import React from 'react';
-
 import { GithubIcon, LinkedinIcon } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import type React from 'react';
 
 export const Footer: React.FC = () => {
   const t = useTranslations('footer');

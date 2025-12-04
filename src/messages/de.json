@@ -1,241 +1,241 @@
 {
-    "title": "Nico Möhn | Portfolio",
-    "portfolio": {
-        "hero": {
-            "title": "Hi, ich bin Nico 👋",
-            "subheading": "Ich entwickle Full-Stack-Apps.",
-            "location": "Zagreb",
-            "hoverText": "hi :)"
-        },
-        "experience": {
-            "title": "Erfahrung",
-            "items": [
-                {
-                    "id": "prod-lead",
-                    "title": "Product Lead",
-                    "company": "dreifach.ai - Köln, Deutschland (Remote)",
-                    "period": "Jul 2025 — Heute",
-                    "description": [
-                        "Entwicklung eines unangekündigten KI-Produkts für die Versicherungsbranche.",
-                        "Planung der Architektur und KI-Workflows.",
-                        "Koordination des Teams und Iteration mit Early Adopters."
-                    ],
-                    "skills": [
-                        {
-                            "name": "Produktentwicklung",
-                            "description": "Produktstrategie gesteuert und Entscheidungen zu Design, Entwicklung und Marketing getroffen."
-                        },
-                        {
-                            "name": "AI",
-                            "description": "Kombination aus LLMs und Embedding-Modellen für die KI-Funktionen eingesetzt."
-                        },
-                        {
-                            "name": "Next.js",
-                            "description": "Next.js wurde für das Frontend der Anwendung eingesetzt."
-                        },
-                        {
-                            "name": "fastify",
-                            "description": "fastify wurde als Backend-Server-Framework verwendet."
-                        },
-                        {
-                            "name": "Effect.ts",
-                            "description": "Als Standardbibliothek für End-to-End-Typsicherheit, Dependency Injection, Concurrency-Management und mehr gewählt."
-                        },
-                        {
-                            "name": "PostgreSQL",
-                            "description": "Primäre Datenbank des Projekts, mit pgvector zur Speicherung von Embeddings."
-                        }
-                    ],
-                    "startYear": 2025
-                },
-                {
-                    "id": "fs-ai-eng",
-                    "title": "Full Stack AI Engineer",
-                    "company": "dreifach.ai - Köln, Deutschland (Remote)",
-                    "period": "Nov 2024 — Jul 2025",
-                    "description": [
-                        "6 KI-Projekte und 9 PoCs für die Versicherungsbranche ausgeliefert.",
-                        "Internes LLM-Benchmarking-Tool gebaut.",
-                        "Mehrere Kundenprojekte Ende-zu-Ende geführt."
-                    ],
-                    "skills": [
-                        {
-                            "name": "Python",
-                            "description": "Python wurde für Prototyping und Proof of Concepts verwendet."
-                        },
-                        {
-                            "name": "TypeScript",
-                            "description": "Als primäre Sprache in Projekten, sowohl im Frontend als auch im Backend, eingesetzt."
-                        },
-                        {
-                            "name": "Next.js",
-                            "description": "Bevorzugtes Framework für das Frontend."
-                        },
-                        {
-                            "name": "Tailwind",
-                            "description": "Für Styling genutzt, da CSS-Klassen schreiben ein kafkaesquer Alptraum ist."
-                        },
-                        {
-                            "name": "fastify",
-                            "description": "Bevorzugtes Server-Framework."
-                        },
-                        {
-                            "name": "Effect.ts",
-                            "description": "Als Standardbibliothek für End-to-End-Typsicherheit, Dependency Injection, Concurrency-Management und mehr gewählt."
-                        },
-                        {
-                            "name": "PostgreSQL",
-                            "description": "Primäre Datenbank für die meisten Projekte, mit pgvector zur Speicherung von Embeddings."
-                        },
-                        {
-                            "name": "Vitest",
-                            "description": "Als Testframework in allen Projekten eingesetzt."
-                        }
-                    ],
-                    "startYear": 2024
-                },
-                {
-                    "id": "it-assistant",
-                    "title": "IT-Assistenz Anwendungs- & Infrastrukturmanagement",
-                    "company": "Messe Frankfurt - Frankfurt am Main, Deutschland",
-                    "period": "Jun 2024 — Aug 2024",
-                    "description": [
-                        "Application Management für ESB und Customer IAM.",
-                        "Frontend-Entwicklung für internen RAG-Chatbot (React + Tailwind)."
-                    ],
-                    "skills": [
-                        {
-                            "name": "ESB",
-                            "description": "In Java entwickelten Enterprise Service Bus betreut, Anforderungen und Fehlerbehebungen verwaltet."
-                        },
-                        {
-                            "name": "Customer IAM",
-                            "description": "SAP Customer Data Cloud für globalen Kunden-Login betreut."
-                        },
-                        {
-                            "name": "Solid.js",
-                            "description": "Frontend-Framework für internes Chatbot-Widget."
-                        },
-                        {
-                            "name": "Tailwind",
-                            "description": "Für Styling genutzt, da CSS-Klassen schreiben ein kafkaesquer Alptraum ist."
-                        },
-                        {
-                            "name": "RAG",
-                            "description": "Retrieval-Augmented-Generation-Pipeline für internen Chatbot mitentworfen."
-                        }
-                    ],
-                    "startYear": 2024
-                },
-                {
-                    "id": "it-specialist",
-                    "title": "Fachinformatiker Systemintegration",
-                    "company": "Messe Frankfurt - Frankfurt am Main, Deutschland",
-                    "period": "Aug 2021 — Jun 2024",
-                    "description": [
-                        "LLM-gestützte Web-App zur Erstellung von Ausstellerbeschreibungen zur Verbesserung von Messeverzeichnissen entwickelt.",
-                        "QA für interne Flächenplanungssoftware durch großes UI/UX-Update."
-                    ],
-                    "skills": [
-                        {
-                            "name": "React",
-                            "description": "Frontend-Framework für reguläre Projekte."
-                        },
-                        {
-                            "name": "Solid.js",
-                            "description": "Frontend-Framework für kleinere Projekte."
-                        },
-                        {
-                            "name": "Express.js",
-                            "description": "Server-Framework für alle Projekte."
-                        },
-                        {
-                            "name": "QA",
-                            "description": "Regressionstests und Pflege von Testsätzen."
-                        },
-                        {
-                            "name": "Projektmanagement",
-                            "description": "Verschiedene Projekte gesteuert, u. a. Entwicklung einer internen English-Quiz-App und Organisation der jährlichen Mitarbeitendenfeier."
-                        }
-                    ],
-                    "startYear": 2021
-                }
-            ]
-        },
-        "skills": {
-            "title": "Skills",
-            "languages": {
-                "title": "Programmiersprachen",
-                "typescript": "TypeScript (Sicher)",
-                "python": "Python (Sicher)",
-                "csharp": "C# (Fortgeschritten)",
-                "go": "Go (Grundkenntnisse)",
-                "cpp": "C++ (Grundkenntnisse)",
-                "sql": "SQL (Sicher)",
-                "c": "C (Grundkenntnisse)",
-                "java": "Java (Grundkenntnisse)"
+  "title": "Nico Möhn | Portfolio",
+  "portfolio": {
+    "hero": {
+      "title": "Hi, ich bin Nico 👋",
+      "subheading": "Ich entwickle Full-Stack-Apps.",
+      "location": "Zagreb",
+      "hoverText": "hi :)"
+    },
+    "experience": {
+      "title": "Erfahrung",
+      "items": [
+        {
+          "id": "prod-lead",
+          "title": "Product Lead",
+          "company": "dreifach.ai - Köln, Deutschland (Remote)",
+          "period": "Jul 2025 — Heute",
+          "description": [
+            "Entwicklung eines unangekündigten KI-Produkts für die Versicherungsbranche.",
+            "Planung der Architektur und KI-Workflows.",
+            "Koordination des Teams und Iteration mit Early Adopters."
+          ],
+          "skills": [
+            {
+              "name": "Produktentwicklung",
+              "description": "Produktstrategie gesteuert und Entscheidungen zu Design, Entwicklung und Marketing getroffen."
             },
-            "frontend": {
-                "title": "Frontend",
-                "react": "React",
-                "next": "Next.js",
-                "solid": "Solid.js",
-                "astro": "Astro",
-                "tailwind": "TailwindCSS",
-                "sass": "Sass/SCSS",
-                "storybook": "Storybook",
-                "shadcn": "shadcn/ui",
-                "zustand": "Zustand (Zustandsmanagement)",
-                "vite": "Vite"
+            {
+              "name": "AI",
+              "description": "Kombination aus LLMs und Embedding-Modellen für die KI-Funktionen eingesetzt."
             },
-            "devOps": {
-                "title": "DevOps",
-                "docker": "Docker",
-                "aws": "AWS (ECS, Lambda, Amplify, S3, API Gateway, EC2, Route 53)",
-                "azure": "Azure (Container Apps, Storage, Functions, PostgreSQL)",
-                "git": "Git",
-                "ghActions": "GitHub Actions",
-                "posthog": "PostHog",
-                "tanstack": "TanStack Query/Table"
+            {
+              "name": "Next.js",
+              "description": "Next.js wurde für das Frontend der Anwendung eingesetzt."
             },
-            "backend": {
-                "title": "Backend",
-                "effect": "Effect.ts",
-                "express": "Express.js",
-                "fastify": "fastify",
-                "fastapi": "FastAPI",
-                "vitest": "Vitest",
-                "drizzle": "Drizzle ORM",
-                "prisma": "Prisma ORM",
-                "postgres": "PostgreSQL",
-                "mysql": "MySQL",
-                "mongodb": "MongoDB",
-                "redis": "Redis",
-                "rabbitmq": "RabbitMQ"
+            {
+              "name": "fastify",
+              "description": "fastify wurde als Backend-Server-Framework verwendet."
             },
-            "ai": {
-                "title": "AI/ML",
-                "pytorch": "PyTorch",
-                "sklearn": "scikit-learn",
-                "langchain": "LangChain",
-                "foundry": "Azure AI Foundry",
-                "openai": "OpenAI LLMs & Embedding Modelle",
-                "cohere": "Cohere Embedding & Reranking Modelle"
+            {
+              "name": "Effect.ts",
+              "description": "Als Standardbibliothek für End-to-End-Typsicherheit, Dependency Injection, Concurrency-Management und mehr gewählt."
+            },
+            {
+              "name": "PostgreSQL",
+              "description": "Primäre Datenbank des Projekts, mit pgvector zur Speicherung von Embeddings."
             }
-        }
-    },
-    "localeSelect": {
-        "ariaLabel": "Sprache auswählen",
-        "placeholder": "Sprache auswählen...",
-        "locales": {
-            "en": "🇬🇧 English",
-            "hr": "🇭🇷 Hrvatski",
-            "de": "🇩🇪 Deutsch"
+          ],
+          "startYear": 2025
         },
-        "notFound": "Nicht gefunden ☹️"
+        {
+          "id": "fs-ai-eng",
+          "title": "Full Stack AI Engineer",
+          "company": "dreifach.ai - Köln, Deutschland (Remote)",
+          "period": "Nov 2024 — Jul 2025",
+          "description": [
+            "6 KI-Projekte und 9 PoCs für die Versicherungsbranche ausgeliefert.",
+            "Internes LLM-Benchmarking-Tool gebaut.",
+            "Mehrere Kundenprojekte Ende-zu-Ende geführt."
+          ],
+          "skills": [
+            {
+              "name": "Python",
+              "description": "Python wurde für Prototyping und Proof of Concepts verwendet."
+            },
+            {
+              "name": "TypeScript",
+              "description": "Als primäre Sprache in Projekten, sowohl im Frontend als auch im Backend, eingesetzt."
+            },
+            {
+              "name": "Next.js",
+              "description": "Bevorzugtes Framework für das Frontend."
+            },
+            {
+              "name": "Tailwind",
+              "description": "Für Styling genutzt, da CSS-Klassen schreiben ein kafkaesquer Alptraum ist."
+            },
+            {
+              "name": "fastify",
+              "description": "Bevorzugtes Server-Framework."
+            },
+            {
+              "name": "Effect.ts",
+              "description": "Als Standardbibliothek für End-to-End-Typsicherheit, Dependency Injection, Concurrency-Management und mehr gewählt."
+            },
+            {
+              "name": "PostgreSQL",
+              "description": "Primäre Datenbank für die meisten Projekte, mit pgvector zur Speicherung von Embeddings."
+            },
+            {
+              "name": "Vitest",
+              "description": "Als Testframework in allen Projekten eingesetzt."
+            }
+          ],
+          "startYear": 2024
+        },
+        {
+          "id": "it-assistant",
+          "title": "IT-Assistenz Anwendungs- & Infrastrukturmanagement",
+          "company": "Messe Frankfurt - Frankfurt am Main, Deutschland",
+          "period": "Jun 2024 — Aug 2024",
+          "description": [
+            "Application Management für ESB und Customer IAM.",
+            "Frontend-Entwicklung für internen RAG-Chatbot (React + Tailwind)."
+          ],
+          "skills": [
+            {
+              "name": "ESB",
+              "description": "In Java entwickelten Enterprise Service Bus betreut, Anforderungen und Fehlerbehebungen verwaltet."
+            },
+            {
+              "name": "Customer IAM",
+              "description": "SAP Customer Data Cloud für globalen Kunden-Login betreut."
+            },
+            {
+              "name": "Solid.js",
+              "description": "Frontend-Framework für internes Chatbot-Widget."
+            },
+            {
+              "name": "Tailwind",
+              "description": "Für Styling genutzt, da CSS-Klassen schreiben ein kafkaesquer Alptraum ist."
+            },
+            {
+              "name": "RAG",
+              "description": "Retrieval-Augmented-Generation-Pipeline für internen Chatbot mitentworfen."
+            }
+          ],
+          "startYear": 2024
+        },
+        {
+          "id": "it-specialist",
+          "title": "Fachinformatiker Systemintegration",
+          "company": "Messe Frankfurt - Frankfurt am Main, Deutschland",
+          "period": "Aug 2021 — Jun 2024",
+          "description": [
+            "LLM-gestützte Web-App zur Erstellung von Ausstellerbeschreibungen zur Verbesserung von Messeverzeichnissen entwickelt.",
+            "QA für interne Flächenplanungssoftware durch großes UI/UX-Update."
+          ],
+          "skills": [
+            {
+              "name": "React",
+              "description": "Frontend-Framework für reguläre Projekte."
+            },
+            {
+              "name": "Solid.js",
+              "description": "Frontend-Framework für kleinere Projekte."
+            },
+            {
+              "name": "Express.js",
+              "description": "Server-Framework für alle Projekte."
+            },
+            {
+              "name": "QA",
+              "description": "Regressionstests und Pflege von Testsätzen."
+            },
+            {
+              "name": "Projektmanagement",
+              "description": "Verschiedene Projekte gesteuert, u. a. Entwicklung einer internen English-Quiz-App und Organisation der jährlichen Mitarbeitendenfeier."
+            }
+          ],
+          "startYear": 2021
+        }
+      ]
     },
-    "footer": {
-        "linkedin": "https://www.linkedin.com/in/nicomoehn",
-        "github": "https://github.com/nitodeco"
+    "skills": {
+      "title": "Skills",
+      "languages": {
+        "title": "Programmiersprachen",
+        "typescript": "TypeScript (Sicher)",
+        "python": "Python (Sicher)",
+        "csharp": "C# (Fortgeschritten)",
+        "go": "Go (Grundkenntnisse)",
+        "cpp": "C++ (Grundkenntnisse)",
+        "sql": "SQL (Sicher)",
+        "c": "C (Grundkenntnisse)",
+        "java": "Java (Grundkenntnisse)"
+      },
+      "frontend": {
+        "title": "Frontend",
+        "react": "React",
+        "next": "Next.js",
+        "solid": "Solid.js",
+        "astro": "Astro",
+        "tailwind": "TailwindCSS",
+        "sass": "Sass/SCSS",
+        "storybook": "Storybook",
+        "shadcn": "shadcn/ui",
+        "zustand": "Zustand (Zustandsmanagement)",
+        "vite": "Vite"
+      },
+      "devOps": {
+        "title": "DevOps",
+        "docker": "Docker",
+        "aws": "AWS (ECS, Lambda, Amplify, S3, API Gateway, EC2, Route 53)",
+        "azure": "Azure (Container Apps, Storage, Functions, PostgreSQL)",
+        "git": "Git",
+        "ghActions": "GitHub Actions",
+        "posthog": "PostHog",
+        "tanstack": "TanStack Query/Table"
+      },
+      "backend": {
+        "title": "Backend",
+        "effect": "Effect.ts",
+        "express": "Express.js",
+        "fastify": "fastify",
+        "fastapi": "FastAPI",
+        "vitest": "Vitest",
+        "drizzle": "Drizzle ORM",
+        "prisma": "Prisma ORM",
+        "postgres": "PostgreSQL",
+        "mysql": "MySQL",
+        "mongodb": "MongoDB",
+        "redis": "Redis",
+        "rabbitmq": "RabbitMQ"
+      },
+      "ai": {
+        "title": "AI/ML",
+        "pytorch": "PyTorch",
+        "sklearn": "scikit-learn",
+        "langchain": "LangChain",
+        "foundry": "Azure AI Foundry",
+        "openai": "OpenAI LLMs & Embedding Modelle",
+        "cohere": "Cohere Embedding & Reranking Modelle"
+      }
     }
+  },
+  "localeSelect": {
+    "ariaLabel": "Sprache auswählen",
+    "placeholder": "Sprache auswählen...",
+    "locales": {
+      "en": "🇬🇧 English",
+      "hr": "🇭🇷 Hrvatski",
+      "de": "🇩🇪 Deutsch"
+    },
+    "notFound": "Nicht gefunden ☹️"
+  },
+  "footer": {
+    "linkedin": "https://www.linkedin.com/in/nicomoehn",
+    "github": "https://github.com/nitodeco"
+  }
 }

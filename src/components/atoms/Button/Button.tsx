@@ -1,8 +1,7 @@
-import * as React from 'react';
+import type { VariantProps } from 'class-variance-authority';
+import type * as React from 'react';
 
-import { type VariantProps } from 'class-variance-authority';
-
-import { Button as ShadButton, buttonVariants } from '@/components/ui/button';
+import { type buttonVariants, Button as ShadButton } from '@/components/ui/button';
 
 import { cn } from '@/lib/utils';
 

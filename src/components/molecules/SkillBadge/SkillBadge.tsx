@@ -1,4 +1,4 @@
-import React from 'react';
+import type React from 'react';
 
 import { Badge } from '@/components/ui/badge';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';

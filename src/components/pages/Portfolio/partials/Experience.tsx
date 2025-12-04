@@ -1,6 +1,5 @@
-import React from 'react';
-
 import { useMessages, useTranslations } from 'next-intl';
+import type React from 'react';
 
 import { SkillBadge } from '@/components/molecules/SkillBadge';
 
@@ -19,10 +18,18 @@ type ExperienceItem = {
   startYear: number;
 };
 
+type Messages = {
+  portfolio?: {
+    experience?: {
+      items?: ExperienceItem[];
+    };
+  };
+};
+
 export const Experience: React.FC = () => {
   const t = useTranslations('portfolio.experience');
-  const messages = useMessages() as unknown as Record<string, unknown>;
-  const items = ((messages as any)?.portfolio?.experience?.items ?? []) as ExperienceItem[];
+  const messages = useMessages() as unknown as Messages;
+  const items = messages?.portfolio?.experience?.items ?? [];
 
   return (
     <section className='w-full'>
@@ -43,13 +50,13 @@ export const Experience: React.FC = () => {
                 </div>
               </div>
               <ul className='mt-3 list-disc list-inside space-y-1 text-sm leading-relaxed'>
-                {item.description.map((line: string, idx: number) => (
-                  <li key={idx}>{line}</li>
+                {item.description.map((line: string) => (
+                  <li key={line}>{line}</li>
                 ))}
               </ul>
               <div className='mt-4 flex flex-wrap gap-2'>
-                {item.skills.map((skill: Skill, idx: number) => (
-                  <SkillBadge key={idx} skill={skill.name} description={skill.description} />
+                {item.skills.map((skill: Skill) => (
+                  <SkillBadge key={skill.name} skill={skill.name} description={skill.description} />
                 ))}
               </div>
             </div>

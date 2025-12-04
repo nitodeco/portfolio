@@ -1,0 +1,96 @@
+{
+    "$schema": "https://biomejs.dev/schemas/2.3.8/schema.json",
+    "vcs": { "enabled": true, "clientKind": "git", "useIgnoreFile": true },
+    "files": {
+        "ignoreUnknown": false,
+        "includes": ["**", "!dist"]
+    },
+    "formatter": {
+        "enabled": true,
+        "formatWithErrors": false,
+        "indentStyle": "space",
+        "indentWidth": 2,
+        "lineEnding": "lf",
+        "lineWidth": 120,
+        "attributePosition": "auto",
+        "bracketSameLine": false,
+        "bracketSpacing": true,
+        "expand": "auto",
+        "useEditorconfig": true,
+        "includes": [
+            "**",
+            "!**/node_modules/",
+            "!**/pnpm-lock.yaml",
+            "!**/.next/",
+            "!**/.vercel/",
+            "!**/public/",
+            "!**/components/ui/",
+            "!src/messages/*.d.json.ts"
+        ]
+    },
+    "linter": {
+        "enabled": true,
+        "rules": {
+            "recommended": true,
+            "correctness": {
+                "noUnusedVariables": "warn",
+                "noUnusedImports": "warn",
+                "noUnusedFunctionParameters": "warn"
+            },
+            "style": {
+                "noNamespace": "off",
+                "noNonNullAssertion": "warn"
+            },
+            "suspicious": {
+                "noExplicitAny": "warn",
+                "noEmptyInterface": "off"
+            }
+        }
+    },
+    "javascript": {
+        "formatter": {
+            "jsxQuoteStyle": "single",
+            "quoteProperties": "asNeeded",
+            "trailingCommas": "all",
+            "semicolons": "always",
+            "arrowParentheses": "always",
+            "bracketSameLine": false,
+            "quoteStyle": "single",
+            "attributePosition": "auto",
+            "bracketSpacing": true
+        }
+    },
+    "html": {
+        "formatter": {
+            "indentScriptAndStyle": false,
+            "selfCloseVoidElements": "always"
+        }
+    },
+    "css": {
+        "parser": {
+            "tailwindDirectives": true
+        }
+    },
+    "overrides": [
+        {
+            "includes": ["*.html", "*.hbs", "*.css", ".sass"],
+            "javascript": { "formatter": { "quoteStyle": "double" } }
+        },
+        {
+            "includes": ["*.json", ".prettierrc", ".swcrc"],
+            "formatter": { "indentWidth": 4 }
+        },
+        {
+            "includes": ["*.jsx", "*.tsx", "*.mdx"],
+            "javascript": { "formatter": { "jsxQuoteStyle": "single" } }
+        },
+        {
+            "includes": ["Makefile", "*.mk"],
+            "formatter": { "indentStyle": "tab", "indentWidth": 4 }
+        }
+    ],
+    "assist": {
+        "enabled": true,
+        "actions": { "source": { "organizeImports": "on" } }
+    }
+}

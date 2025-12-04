@@ -1,6 +1,5 @@
-import React from 'react';
-
 import Image from 'next/image';
+import type React from 'react';
 
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 

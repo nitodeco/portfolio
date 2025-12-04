@@ -1,9 +1,7 @@
-import React from 'react';
-
 import { MapPinIcon } from 'lucide-react';
-import { useTranslations } from 'next-intl';
-
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
+import type React from 'react';
 
 import { SpeechBubble } from '@/components/atoms/SpeechBubble';
 

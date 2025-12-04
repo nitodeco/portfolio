@@ -22,35 +22,20 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 10.12.1
-          run_install: |
-            - recursive: true
-              args: [--frozen-lockfile]
 
-      - name: Install Node.js
-        uses: actions/setup-node@v4
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
         with:
-          node-version: 22.16.0
-          cache: 'pnpm'
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
 
       - name: Build
-        id: turbo
-        run: |
-          set +e
-          pnpm build
-          echo "exit_code=$?" >> $GITHUB_OUTPUT
-        continue-on-error: true
+        run: bun run build
 
-      - name: Run ESLint
-        run: pnpm lint
+      - name: Run Biome
+        run: bun run check
 
       - name: Run Vitest
-        continue-on-error: true
-        if: always()
-        run: pnpm test
-
-      - name: Fail job if build failed
-        if: ${{ steps.turbo.outputs.exit_code != '0' }}
-        run: exit 1
+        run: bun run test

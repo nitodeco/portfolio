@@ -1,7 +1,9 @@
 import posthog from 'posthog-js';
 
-if (process.env.NEXT_PUBLIC_POSTHOG_KEY! && typeof window !== 'undefined') {
-  posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY, {
+const posthogKey = process.env.NEXT_PUBLIC_POSTHOG_KEY;
+
+if (posthogKey && typeof window !== 'undefined') {
+  posthog.init(posthogKey, {
     api_host: '/relay-portfolio',
     ui_host: 'https://eu.posthog.com',
     defaults: '2025-05-24',
