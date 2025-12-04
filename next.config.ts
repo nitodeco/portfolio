@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/relay-portfolio/static/:path*',
-        destination: 'https://eu-assets.posthog.com/static/:path*',
+        destination: 'https://eu-assets.i.posthog.com/static/:path*',
       },
       {
         source: '/relay-portfolio/:path*',
