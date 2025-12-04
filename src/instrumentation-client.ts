@@ -8,7 +8,7 @@ if (posthogKey && typeof window !== 'undefined') {
     ui_host: 'https://eu.posthog.com',
     defaults: '2025-05-24',
     capture_exceptions: true,
-    persistence: 'memory',
+    persistence: 'localStorage',
     debug: process.env.NODE_ENV === 'development',
   });
 }

@@ -8,12 +8,12 @@ const nextConfig: NextConfig = {
   async rewrites() {
     return [
       {
-        source: '/relay-portfolio/static/(.*)',
-        destination: 'https://eu-assets.i.posthog.com/static/$1',
+        source: '/relay-portfolio/static/:path*',
+        destination: 'https://eu-assets.posthog.com/static/:path*',
       },
       {
-        source: '/relay-portfolio/(.*)',
-        destination: 'https://eu.i.posthog.com/$1',
+        source: '/relay-portfolio/:path*',
+        destination: 'https://eu.posthog.com/:path*',
       },
     ];
   },
