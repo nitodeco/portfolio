@@ -11,12 +11,64 @@
       "title": "Iskustvo",
       "items": [
         {
+          "id": "sdk-eng",
+          "title": "Softverski inženjer",
+          "company": "Microblink - Zagreb, Hrvatska",
+          "period": "Studeni 2025 — Sada",
+          "description": ["Vođenje razvoja Web SDK-a za Microblinkove nove biometrijske proizvode."],
+          "skills": [
+            {
+              "name": "TypeScript",
+              "description": "Primarni jezik za razvoj SDK-a."
+            },
+            {
+              "name": "Web Workers",
+              "description": "Korišteni za prebacivanje zahtjevnih izračuna s glavne niti."
+            },
+            {
+              "name": "Solid.js",
+              "description": "Frontend okvir korišten za SDK komponente."
+            }
+          ],
+          "startYear": 2025
+        },
+        {
+          "id": "freelancer",
+          "title": "Freelancer",
+          "company": "dreifach.ai - Köln, Njemačka (Remote)",
+          "period": "Studeni 2025 — Sada",
+          "description": ["Razvoj projekata za klijente i savjetovanje strategije."],
+          "skills": [
+            {
+              "name": "AI",
+              "description": "Koristio kombinacije LLM-ova i embedding modela za AI funkcionalnosti."
+            },
+            {
+              "name": "Next.js",
+              "description": "Next.js je korišten za frontend aplikacije."
+            },
+            {
+              "name": "fastify",
+              "description": "Fastify je korišten kao backend server okvir."
+            },
+            {
+              "name": "Effect.ts",
+              "description": "Odabran kao standardna biblioteka za end-to-end tip sigurnosti, dependency injection, upravljanje konkurentnošću i više."
+            },
+            {
+              "name": "PostgreSQL",
+              "description": "Primarna baza podataka projekta, s pgvectorom za pohranu embeddinga."
+            }
+          ],
+          "startYear": 2025
+        },
+        {
           "id": "prod-lead",
           "title": "Product Lead",
           "company": "dreifach.ai - Köln, Njemačka (Remote)",
-          "period": "Srpanj 2025 — Sada",
+          "period": "Srpanj 2025 — Studeni 2025",
           "description": [
-            "Vođenje razvoja nenajavljenog AI proizvoda za industriju osiguranja",
+            "Vođenje razvoja dreifach.claims, platforme za obradu šteta za osiguravajuće brokere.",
             "Planiranje arhitekture i AI tokova rada",
             "Koordiniranje tima i iteriranje s ranim korisnicima"
           ],
@@ -55,7 +107,7 @@
           "period": "Studeni 2024 — Srpanj 2025",
           "description": [
             "Isporučeno 6 AI projekata i 9 PoC-eva za osigurateljnu industriju",
-            "Izgrada internih alat za LLM benchmarking",
+            "Izgradnja internih alat za LLM benchmarking",
             "Vođenje više klijentskih end-to-end projekata"
           ],
           "skills": [

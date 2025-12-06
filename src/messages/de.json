@@ -11,12 +11,64 @@
       "title": "Erfahrung",
       "items": [
         {
+          "id": "sdk-eng",
+          "title": "Software-Entwickler",
+          "company": "Microblink - Zagreb, Kroatien",
+          "period": "Nov 2025 — Heute",
+          "description": ["Entwicklung der Web SDK für Microblinks neue Biometrie-Produkte."],
+          "skills": [
+            {
+              "name": "TypeScript",
+              "description": "Primäre Sprache für die SDK-Entwicklung."
+            },
+            {
+              "name": "Web Workers",
+              "description": "Zum Auslagern rechenintensiver Aufgaben vom Hauptthread verwendet."
+            },
+            {
+              "name": "Solid.js",
+              "description": "Frontend-Framework für SDK-Komponenten."
+            }
+          ],
+          "startYear": 2025
+        },
+        {
+          "id": "freelancer",
+          "title": "Freiberufler",
+          "company": "dreifach.ai - Köln, Deutschland (Remote)",
+          "period": "Nov 2025 — Heute",
+          "description": ["Entwicklung von Kundenprojekten und strategische Beratung."],
+          "skills": [
+            {
+              "name": "AI",
+              "description": "Kombination aus LLMs und Embedding-Modellen für die KI-Funktionen eingesetzt."
+            },
+            {
+              "name": "Next.js",
+              "description": "Next.js wurde für das Frontend der Anwendung eingesetzt."
+            },
+            {
+              "name": "fastify",
+              "description": "fastify wurde als Backend-Server-Framework verwendet."
+            },
+            {
+              "name": "Effect.ts",
+              "description": "Als Standardbibliothek für End-to-End-Typsicherheit, Dependency Injection, Concurrency-Management und mehr gewählt."
+            },
+            {
+              "name": "PostgreSQL",
+              "description": "Primäre Datenbank des Projekts, mit pgvector zur Speicherung von Embeddings."
+            }
+          ],
+          "startYear": 2025
+        },
+        {
           "id": "prod-lead",
           "title": "Product Lead",
           "company": "dreifach.ai - Köln, Deutschland (Remote)",
-          "period": "Jul 2025 — Heute",
+          "period": "Jul 2025 — Nov 2025",
           "description": [
-            "Entwicklung eines unangekündigten KI-Produkts für die Versicherungsbranche.",
+            "Leitung der Entwicklung von dreifach.claims, der KI-basierten Schadenplattform für Versicherungsmakler.",
             "Planung der Architektur und KI-Workflows.",
             "Koordination des Teams und Iteration mit Early Adopters."
           ],

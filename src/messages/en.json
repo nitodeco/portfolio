@@ -11,12 +11,64 @@
       "title": "Experience",
       "items": [
         {
+          "id": "sdk-eng",
+          "title": "Software Engineer",
+          "company": "Microblink - Zagreb, Croatia",
+          "period": "Nov 2025 — Present",
+          "description": ["Leading development of the Web SDK for Microblink's new Biometrics products."],
+          "skills": [
+            {
+              "name": "TypeScript",
+              "description": "Primary language for SDK development."
+            },
+            {
+              "name": "Web Workers",
+              "description": "Used for offloading heavy computations from the main thread."
+            },
+            {
+              "name": "Solid.js",
+              "description": "Frontend framework used for SDK components."
+            }
+          ],
+          "startYear": 2025
+        },
+        {
+          "id": "freelancer",
+          "title": "Freelancer",
+          "company": "dreifach.ai - Cologne, Germany (Remote)",
+          "period": "Nov 2025 — Present",
+          "description": ["Developing customer projects and advising strategy."],
+          "skills": [
+            {
+              "name": "AI",
+              "description": "Used a combination of LLMs and embedding models for AI features."
+            },
+            {
+              "name": "Next.js",
+              "description": "Next.js was used for the frontend of the application."
+            },
+            {
+              "name": "fastify",
+              "description": "fastify was used as the server framework."
+            },
+            {
+              "name": "Effect.ts",
+              "description": "Chosen as the standard library for end-to-end type safety, dependency injection, concurrency management, and much more."
+            },
+            {
+              "name": "PostgreSQL",
+              "description": "Primary database, with pgvector to store embeddings."
+            }
+          ],
+          "startYear": 2025
+        },
+        {
           "id": "prod-lead",
           "title": "Product Lead",
           "company": "dreifach.ai - Cologne, Germany (Remote)",
-          "period": "Jul 2025 — Present",
+          "period": "Jul 2025 — Nov 2025",
           "description": [
-            "Leading the development of an unannounced AI product for the insurance industry.",
+            "Leading the development of dreifach.claims, an AI powered claims platform for insurance brokers.",
             "Planning architecture and AI workflows.",
             "Coordinating the team and iterating with early adopters."
           ],
