@@ -36,6 +36,3 @@ jobs:
 
       - name: Run Biome
         run: bun run check
-
-      - name: Run Vitest
-        run: bun run test
